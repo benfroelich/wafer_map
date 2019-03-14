@@ -134,12 +134,11 @@ At the very least, you can run the example file and see how this wafer
 mapping software looks.
 
 Navigate to the wafer_map directory in your python installtion
-(`../Lib/site-packages/wafer_map`) and run `example.py` in your cmd prompt
-or terminal:
+(`../Lib/site-packages/wafer_map`) and run:
 
-`python example.py`
+`python -m wafer_map`
 
-`Example.py` generates a fake data set and then displays it in 3
+which generates a fake data set and then displays it in 3
 different ways:
 
 1.  As a standalone app. This requires only calling a single function in
